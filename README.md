@@ -155,6 +155,9 @@ This project has shown how to benign and malignant diagnosis' from a set of skin
 
 
 # References
+
+Agent Orange: https://study.com/academy/lesson/what-is-agent-orange-effects-symptoms-definition.html
+
 (1) https://docs.hashicorp.com/sentinel/imports/decimal
 
 (2) https://www.geeksforgeeks.org/convert-bgr-and-rgb-with-python-opencv/
