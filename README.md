@@ -23,12 +23,12 @@ The use of such an algorithm would assist doctors and medical professionals in d
 
 The skin is the body’s largest organ. Skin has several layers, but the two main layers are the epidermis (upper or outer layer) and the dermis (lower or inner layer). Skin cancer begins in the epidermis, which is made up of three kinds of cells—
 
-**Squamous cells: Thin, flat cells that form the top layer of the epidermis.
+**Squamous cells: Thin, flat cells that form the top layer of the epidermis.**
 
-**Basal cells: Round cells under the squamous cells.
+**Basal cells: Round cells under the squamous cells.**
 
 
-**Melanocytes: Cells that make melanin and are found in the lower part of the epidermis. Melanin is the pigment that gives skin its color. When skin is exposed to the sun, melanocytes make more pigment and cause the skin to darken.
+**Melanocytes: Cells that make melanin and are found in the lower part of the epidermis. Melanin is the pigment that gives skin its color. When skin is exposed to the sun, melanocytes make more pigment and cause the skin to darken.**
 
 Basal and squamous cell carcinomas are the two most common types of skin cancer. They begin in the basal and squamous layers of the skin, respectively. Both can usually be cured, but they can be disfiguring and expensive to treat.
 
@@ -118,6 +118,7 @@ The simplest way to analyze the perfomance of a model is to examine a visualizat
 ![resvseff](https://user-images.githubusercontent.com/71333855/130538297-071f99ee-cbe9-400c-b825-6fda295b3232.jpg)
 
 **CNN with No Augmentation**
+
 ![noauglossacc](https://user-images.githubusercontent.com/71333855/130538318-a70893d7-7af1-4b7f-ad25-22365dae967c.png)
 
 
