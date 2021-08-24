@@ -7,6 +7,10 @@ The goal of this project is to build a tool to correctly identify if whether or 
 
 The Neural Network chosen was the Convolutional Neural Network (CNN) as it is one of the preferred for image processing. In this project I use a standard CNN model without data augmentation, two 5-convolutional block models, an EfficientNet-B0 and a ResNet50 model.
 
+I've chosen this specific project because I've recently lost my grandfather on Memorial Day 2021 due to heart failure. He was a Purple Heart veteran of the Vietnam war, who unfortunately suffered the effects of Agent Orange (a defoliant and herbicide/chemical sprayed by the US in the Vietnam war). At the change of every season he would suffer severely from the long lasting effects that would cause his skin to peel off, as well as causing various lesions to form. He would be in so much agony that he'd ban any of his family from seeing him until the episode would pass. This went on till his untimely passing 3 months ago at the age of 76. 
+
+One of the major health issues as a result of Agent Orange includes heart disease (which he ultimately succumbed to) as well as passing on the effects to one's offspring. Unfortunately, the skin flare ups were passed on to some of his decsendants, including my aunt and younger sister. I would hope to expand on this project in the near future to develop an algorithm that can identify the effects of Agent Orange and get the suffering the care that they need.
+
 ### Business Problem:
 
 The use of such an algorithm would assist doctors and medical professionals in decreasing the time it takes to review and diagnose a patient as well as benefitting the patient by knowing sooner than later if cancer is present so that treatment could begin promptly. In addition, if a person is in doubt about a particular mole but hesitant to visit the doctor, this tool could give peace of mind (by diagnosing as benign) or encourage an appointment (should it output malignant).
@@ -127,7 +131,22 @@ This model's confusion matrix:
 
 (insert image)
 
-In viewing the matrix, we see 30 representing the fn and the 270 representing the tp from our model, we can deduct that this means that 30 skin lesions are misdiagnosed as benign when infact are cancerous.
+In viewing the matrix, we see 30 representing the fn and the 270 representing the tp from our model, we can deduct that this means that 30 skin lesions are misdiagnosed as benign when infact are cancerous. Unfortunately these numbers are not ideal, especially when it comes to the health of patients.
+
+# Conclusion
+This project has shown how to benign and malignant diagnosis' from a set of skin lesion images and although it's far from perfect and could be improved, it is amazing to see the success of deep learning being used in real world problems.
+
+# Recommended Next Steps:
+
+** Re-run the models on the full dataset. I've originally done so, however give that the size of the file is so huge (4.18gb, over 25gb with augmentation), I was only able to run one model every few days (each model produced similar results as the ones aboe) and my kernel kept crashing, ultimately leaving me to keep restarting. However, now that I've completed this notebook I am able to simple update the dataset and rerun!
+
+** Re-run some of the models with a greater number of epochs (such as 100 or more on the ones with 30) if necessary to determine if there is convergence. I've attempted this, however my system couldn't handle it.
+
+** Fine tune and test other parameters to reduce overfitting as well as build a model with FN/FP/TN/TP metrics to get a more accurate look when the classes are imbalanced. (18)
+
+** With this project as a base, our work can be built upon to detect more complex problems, such as determining the types of cancers, skin diseases related to Agent Orange and more.
+
+** Output the model to a user friendly application, preferably a web app.
 
 
 
