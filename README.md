@@ -131,7 +131,7 @@ This model's confusion matrix:
 
 (insert image)
 
-In viewing the matrix, we see 30 representing the fn and the 270 representing the tp from our model, we can deduct that this means that 30 skin lesions are misdiagnosed as benign when infact are cancerous. Unfortunately these numbers are not ideal, especially when it comes to the health of patients.
+In viewing the matrix, we see 30 representing the fn and the 270 representing the tp from our model, we can deduct that this means that 30 out of 270 skin lesions, or 1 in 9, are misdiagnosed as benign when infact are cancerous. Unfortunately these numbers are not ideal, especially when it comes to the health of patients.
 
 # Conclusion
 This project has shown how to benign and malignant diagnosis' from a set of skin lesion images and although it's far from perfect and could be improved, it is amazing to see the success of deep learning being used in real world problems.
@@ -147,8 +147,6 @@ This project has shown how to benign and malignant diagnosis' from a set of skin
 ** With this project as a base, our work can be built upon to detect more complex problems, such as determining the types of cancers, skin diseases related to Agent Orange and more.
 
 ** Output the model to a user friendly application, preferably a web app.
-
-
 
 
 
