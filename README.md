@@ -1,3 +1,5 @@
+![R](https://user-images.githubusercontent.com/71333855/130537828-502583bb-e539-4a44-b04c-46887ac8addd.png)
+
 # Skin Lesion Classification: Cancer or Not?
 **By: Sameeha Ramadhan**
 
@@ -17,16 +19,16 @@ The use of such an algorithm would assist doctors and medical professionals in d
 
 ### What About Skin Cancer?
 
-**(insert image)**
+![whatisskincancer](https://user-images.githubusercontent.com/71333855/130537852-73706040-663e-452a-b491-815a652727b0.jpg)
 
 The skin is the body’s largest organ. Skin has several layers, but the two main layers are the epidermis (upper or outer layer) and the dermis (lower or inner layer). Skin cancer begins in the epidermis, which is made up of three kinds of cells—
 
-**Squamous cells: Thin, flat cells that form the top layer of the epidermis.
+**Squamous cells: Thin, flat cells that form the top layer of the epidermis.**
 
-**Basal cells: Round cells under the squamous cells.
+**Basal cells: Round cells under the squamous cells.**
 
 
-**Melanocytes: Cells that make melanin and are found in the lower part of the epidermis. Melanin is the pigment that gives skin its color. When skin is exposed to the sun, melanocytes make more pigment and cause the skin to darken.
+**Melanocytes: Cells that make melanin and are found in the lower part of the epidermis. Melanin is the pigment that gives skin its color. When skin is exposed to the sun, melanocytes make more pigment and cause the skin to darken.**
 
 Basal and squamous cell carcinomas are the two most common types of skin cancer. They begin in the basal and squamous layers of the skin, respectively. Both can usually be cured, but they can be disfiguring and expensive to treat.
 
@@ -47,13 +49,13 @@ The data was gathered from a number of sources including [dermascopy.org](https:
 ### Exploring the Data:
 I loaded the data and explored the number of images per set and displayed a few to make sure that all of the files are readable.
 
-(insert skin plot)
+![skincancerplot](https://user-images.githubusercontent.com/71333855/130537874-fa85b5d2-8a85-45dc-80fa-ccca7d8dd861.png)
 
 ### Data Visualization:
 
 Next I plotted the data to check the balance and verify that it is evenly distributed:
 
-(insert df balance chart)
+![traintestbalance](https://user-images.githubusercontent.com/71333855/130538239-b4261d98-792d-4341-b668-1ce774d5234b.jpg)
 
 
 Image: Training set (left) and test set (right).
@@ -112,24 +114,21 @@ I've augmented the data using the following parameters: rescale = 1./255, rotati
 
 The simplest way to analyze the perfomance of a model is to examine a visualization of its results and they are as follows:
 
-**ResNet50**
-(insert images)
-
-**EfficientNet-B0**
-(insert image)
+**ResNet50 and EfficientNet-B0**
+![resvseff](https://user-images.githubusercontent.com/71333855/130538297-071f99ee-cbe9-400c-b825-6fda295b3232.jpg)
 
 **CNN with No Augmentation**
-(insertimage)
 
-**5 Block CNN 2**
-(insert image)
+![noauglossacc](https://user-images.githubusercontent.com/71333855/130538318-a70893d7-7af1-4b7f-ad25-22365dae967c.png)
 
-**5 Block CNN 1**
-(insert image)
+
+**5 Block CNN 1 and 2**
+![conv2dlossacc](https://user-images.githubusercontent.com/71333855/130538371-4e209c7d-4d78-4a87-9008-aa288b972e45.jpg)
+
 
 This model's confusion matrix:
 
-(insert image)
+![confusionconvd](https://user-images.githubusercontent.com/71333855/130538382-785787a4-b369-40c7-8da6-e62278d0a332.png)
 
 In viewing the matrix, we see 30 representing the fn and the 270 representing the tp from our model, we can deduct that this means that 30 out of 270 skin lesions, or 1 in 9, are misdiagnosed as benign when infact are cancerous. Unfortunately these numbers are not ideal, especially when it comes to the health of patients.
 
@@ -150,8 +149,11 @@ This project has shown how to benign and malignant diagnosis' from a set of skin
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 44659f4ccf91f9a6ed12096735b5441eb308c7ae
 # References
 
 Agent Orange: https://study.com/academy/lesson/what-is-agent-orange-effects-symptoms-definition.html
