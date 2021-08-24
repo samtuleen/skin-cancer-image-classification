@@ -147,13 +147,6 @@ This project has shown how to benign and malignant diagnosis' from a set of skin
 
 ** Output the model to a user friendly application, preferably a web app.
 
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 44659f4ccf91f9a6ed12096735b5441eb308c7ae
 # References
 
 Agent Orange: https://study.com/academy/lesson/what-is-agent-orange-effects-symptoms-definition.html
