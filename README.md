@@ -150,47 +150,77 @@ This project has shown how to benign and malignant diagnosis' from a set of skin
 
 Agent Orange: https://study.com/academy/lesson/what-is-agent-orange-effects-symptoms-definition.html
 
-(1) https://docs.hashicorp.com/sentinel/imports/decimal
+ https://cppsecrets.com/users/8667115104971151041199711610997104971069711049485564103109971051084699111109/Python-Glob-Module.php#:~:text=Python%20Glob%20%28%29%20Methods%3A%201%20%281%29%20glob%20%28file_pattern%2C,allows%20for%20escaping%20the%20given%20character%20sequence.%20
 
-(2) https://www.geeksforgeeks.org/convert-bgr-and-rgb-with-python-opencv/
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
-(3) https://datascience.stackexchange.com/questions/41921/sparse-categorical-crossentropy-vs-categorical-crossentropy-keras-accuracy
+https://studymachinelearning.com/keras-imagedatagenerator-with-flow_from_directory/#:~:text=The%20flow_from_directory%20%28%29%20assumes%3A%201%20The%20root%20directory,a%20single%20folder%2C%20which%20stores%20all%20test%20images
 
-(4) https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
+https://keras.io/api/layers/normalization_layers/batch_normalization/
 
-(5) https://pythonguides.com/python-print-2-decimal-places/#:~:text=Python%20print%202%20decimal%20places%20In%20Python%2C%20to,will%20print%20the%20float%20with%202%20decimal%20places.
+https://towardsdatascience.com/batch-normalization-in-practice-an-example-with-keras-and-tensorflow-2-0-b1ec28bde96f
 
-**EfficientNetB0:**
+https://deeplizard.com/learn/video/ZjM_XQa5s6s#:~:text=When%20added%20to%20a%20model%2C%20max%20pooling%20reduces,why%20we%20may%20want%20to%20use%20max%20pooling.
+
+Dropout layers: https://arxiv.org/pdf/1506.02158v6.pdf
+
+**VGG16:**
+
+ https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c
+
+ https://keras.io/api/layers/convolution_layers/convolution2d/
+
+ https://keras.io/api/layers/convolution_layers/separable_convolution2d/
+
+ https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728
+ 
+ ----------
+
+
+https://docs.hashicorp.com/sentinel/imports/decimal
+
+https://www.machinecurve.com/index.php/2020/11/19/how-to-normalize-or-standardize-a-dataset-in-python/
+
+
+ https://www.geeksforgeeks.org/convert-bgr-and-rgb-with-python-opencv/
+
+ https://datascience.stackexchange.com/questions/41921/sparse-categorical-crossentropy-vs-categorical-crossentropy-keras-accuracy
+
+ https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
+
+ https://pythonguides.com/python-print-2-decimal-places/#:~:text=Python%20print%202%20decimal%20places%20In%20Python%2C%20to,will%20print%20the%20float%20with%202%20decimal%20places.
+ 
+ https://machinelearningmastery.com/softmax-activation-function-with-python/
+
+**Tranfser Learning/EfficientNetB0:**
+
+https://machinelearningmastery.com/transfer-learning-for-deep-learning/#:~:text=Transfer%20learning%20only%20works%20in%20deep%20learning%20if,be%20trained%20on%20a%20target%20dataset%20and%20task.
 
 https://keras.io/api/applications/efficientnet/
 
 https://paperswithcode.com/method/efficientnet
 
+https://towardsdatascience.com/l1-and-l2-regularization-explained-874c3b03f668
 
-(6) https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/l2-regularization
+https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/l2-regularization
+
+https://stackoverflow.com/a/54059838/16681882
+
+_____
+
 
 (7) Thank you @python_wizard, @py_lenn, and @synthphreak from reddit for guiding me with this piece of code!
 
-(8) https://keras.io/api/callbacks/
+ https://keras.io/api/callbacks/
 
-(9) https://keras.io/api/callbacks/reduce_lr_on_plateau/
+ https://keras.io/api/callbacks/reduce_lr_on_plateau/
 
-(10) https://keras.io/api/callbacks/model_checkpoint/
+ https://keras.io/api/callbacks/model_checkpoint/
 
-(11) https://keras.io/api/callbacks/early_stopping
+ https://keras.io/api/callbacks/early_stopping
 
-(12) https://stackoverflow.com/questions/61362426/why-is-my-val-accuracy-stagnant-at-0-0000e00-while-my-val-loss-is-increasing-fr
+ https://stackoverflow.com/questions/61362426/why-is-my-val-accuracy-stagnant-at-0-0000e00-while-my-val-loss-is-increasing-fr
 
-(13) https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a
+ https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a
 
-(14) https://stats.stackexchange.com/questions/260505/should-i-use-a-categorical-cross-entropy-or-binary-cross-entropy-loss-for-binary#:~:text=Binary%20cross-entropy%20is%20for%20multi-label%20classifications%2C%20whereas%20categorical,Thanks%20for%20contributing%20an%20answer%20to%20Cross%20Validated%21
-
-(15) https://keras.io/api/layers/convolution_layers/separable_convolution2d/
-
-**ResNet50:**
-
-(16) https://iq.opengenus.org/resnet50-architecture/
-
-(17) https://medium.com/@venkinarayanan/tutorial-image-classifier-using-resnet50-deep-learning-model-python-flask-in-azure-4c2b129af6d2
-
-(18) https://keras.io/examples/structured_data/imbalanced_classification/
+ https://stats.stackexchange.com/questions/260505/should-i-use-a-categorical-cross-entropy-or-binary-cross-entropy-loss-for-binary#:~:text=Binary%20cross-entropy%20is%20for%20multi-label%20classifications%2C%20whereas%20categorical,Thanks%20for%20contributing%20an%20answer%20to%20Cross%20Validated%21
