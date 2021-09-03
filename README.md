@@ -1,4 +1,4 @@
-![R](https://user-images.githubusercontent.com/71333855/130537828-502583bb-e539-4a44-b04c-46887ac8addd.png)
+![R](https://user-images.githubusercontent.com/71333855/132074315-c2c445b5-cf44-4af5-b5d4-0f2d28a4f71d.png)
 
 # Skin Lesion Classification: Cancer or Not?
 **By: Sameeha Ramadhan**
