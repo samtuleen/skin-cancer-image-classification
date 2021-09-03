@@ -4,8 +4,11 @@
 **By: Sameeha Ramadhan**
 
 **To navigate this repository:**
+
 The main report can be found in notebook.ipynb
+
 Data cleaning and model testing can be found under the exploratory folder
+
 The best weights of my models can be found under the weights folder
 
 ## Summary 
