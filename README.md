@@ -60,7 +60,7 @@ I loaded the data and explored the number of images per set and displayed a few 
 
 Next I plotted the data to check the balance and verify that it is evenly distributed:
 
-(image)
+![trainvstest](https://user-images.githubusercontent.com/71333855/132074228-e36d025e-1f35-4b2d-807b-8bbb7721a1cf.png)
 
 
 Image: Training set (left) and test set (right).
@@ -79,7 +79,7 @@ The performance of Deep Learning Neural Networks often improves with the amount 
 
 I've augmented the data for my various models using a number of parameters, including:
 
-** zoom_range, width_shift_range, height_shift_range, horizontal_flip,  vertical_flip=True
+**zoom_range, width_shift_range, height_shift_range, horizontal_flip,  vertical_flip=True**
 
 # Modeling
 
@@ -112,7 +112,8 @@ Since skin lesions come in many different shapes and sizes, by vertically flippi
 The simplest way to analyze the perfomance of a model is to examine a visualization of its results and they are as follows:
 
 **EfficientNet-B0**
-(image)
+
+![efficientnetmodel](https://user-images.githubusercontent.com/71333855/132074060-ef4cfcca-5118-4b46-b1b1-dc2263807782.png)
 
 **CNN with No Augmentation**
 
@@ -125,7 +126,8 @@ The simplest way to analyze the perfomance of a model is to examine a visualizat
 
 Confusion matrix with no augmentation:
 
-(image)
+![noaugmatrix](https://user-images.githubusercontent.com/71333855/132074040-169d46c5-4782-4fa3-8ce0-a4bfd6dd2f0c.png)
+
 
 In viewing the matrix, we see 206 representing the fn and the 1594 representing the tp from our model, we can deduct that this means that 206 out of 1800 skin lesions, or 1 in 9, are misdiagnosed as benign when infact are cancerous. Ideally these numbers would be 0 out of 1800, especially since its in relation to the health of patients.
 
