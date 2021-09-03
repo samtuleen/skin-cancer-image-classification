@@ -3,6 +3,11 @@
 # Skin Lesion Classification: Cancer or Not?
 **By: Sameeha Ramadhan**
 
+**To navigate this repository:**
+The main report can be found in notebook.ipynb
+Data cleaning and model testing can be found under the exploratory folder
+The best weights of my models can be found under the weights folder
+
 ## Summary 
 
 The goal of this project is to build a tool to correctly identify if whether or not a skin lesion is cancerous. The model will take in a picture of said lesion and calculate the probability that said lesion is benign (non-cancerous) or malignant (cancer). 
@@ -55,12 +60,12 @@ I loaded the data and explored the number of images per set and displayed a few 
 
 Next I plotted the data to check the balance and verify that it is evenly distributed:
 
-![traintestbalance](https://user-images.githubusercontent.com/71333855/130538239-b4261d98-792d-4341-b668-1ce774d5234b.jpg)
+(image)
 
 
 Image: Training set (left) and test set (right).
 
-As seen above, the data is fairly balanced. Given that large datasets are necessary for Deep Learning and this notebook is ran on a sample of the data, the data will be augmented so that the number of images increases to further stabilize the model.
+As seen above, the data is balanced. Given that large datasets are necessary for Deep Learning and this notebook is ran on a sample of the data, the data will be augmented so that the number of images increases to further stabilize the model.
 
 ## Image Preprocessing
 
@@ -74,21 +79,11 @@ The performance of Deep Learning Neural Networks often improves with the amount 
 
 I've augmented the data for my various models using a number of parameters, including:
 
-** zoom_range=0.3
-
-** vertical_flip=True
-
-** width_shift_range=0.2 
-
-** height_shift_range=0.2,
-
-** horizontal_flip=True
-
-** vertical_flip=True
+** zoom_range, width_shift_range, height_shift_range, horizontal_flip,  vertical_flip=True
 
 # Modeling
 
-After building and testing over 20 models I've settled on the following 5 as the ones with the best results: two 5-convolutional block models, one CNN model with no data augmentation, one EfficientNet-B0 model and one ResNet50 model. For my 5 convolutional block model I've done the following:
+After building and testing over 20 models I've settled on the following 4 as the ones with the best results: two 5-convolutional block models, one CNN model with no data augmentation and one EfficientNet-B0 model. For my 5 convolutional block model I've done the following:
 
 1- Built five convolutional blocks comprised of convolutional layers, BatchNormalization, and MaxPooling.
 
@@ -106,16 +101,18 @@ Note:
 ** Sigmoid: its gradient is defined everywhere and its output is conveniently between 0 and 1 for all x.
 
 
-After testing all of my models, I've chosen the following since it has offered satisfactory results based on both its validation and test accuracy. The best performing model is a ResNet50 model, a pretrained image classification model that consists of a 50 layer deep convolutional network. I've chosen this model because since my dataset is large and this particular model has been trained on thousands of images in very deep layers. 
+After testing all of my models, I've chosen the following since it has offered satisfactory results based on both its validation and test accuracy. One of my best performing models is an EfficientNetB0 model, a pretrained image classification model that consists of a 50 layer deep convolutional network. I've chosen this model because since my dataset is large and this particular model has been trained on thousands of images in very deep layers. 
 
-I've augmented the data using the following parameters: rescale = 1./255, rotation_range=45, zoom_range = 0.2, width_shift_range=0.2, and height_shift_range=0.2. Then I used softmax as my activation function to calculate the relative probabilities [Source](https://www.analyticsvidhya.com/blog/2021/04/introduction-to-softmax-for-neural-network/)
+I've augmented the data  by applying a zoom_range of 0.1 to randomly zoom as well as horizontally and vertically flip some of the images on random. I'll also rotate some of the images 45 degrees and expand some of the images by shifting up as well as sideways I've made these choices because they are relevant when there are no assumptions of vertical assymetry or a set zoom (e.g. real-world pictures are taken at different angles and distances and our model should be able to handle them all).
+
+Since skin lesions come in many different shapes and sizes, by vertically flipping and zooming we will still produce lesions that we would expect our model to classify correctly.
 
 # Analyzing the Results:
 
 The simplest way to analyze the perfomance of a model is to examine a visualization of its results and they are as follows:
 
-**ResNet50 and EfficientNet-B0**
-![resvseff](https://user-images.githubusercontent.com/71333855/130538297-071f99ee-cbe9-400c-b825-6fda295b3232.jpg)
+**EfficientNet-B0**
+(image)
 
 **CNN with No Augmentation**
 
@@ -126,11 +123,11 @@ The simplest way to analyze the perfomance of a model is to examine a visualizat
 ![conv2dlossacc](https://user-images.githubusercontent.com/71333855/130538371-4e209c7d-4d78-4a87-9008-aa288b972e45.jpg)
 
 
-This model's confusion matrix:
+Confusion matrix with no augmentation:
 
-![confusionconvd](https://user-images.githubusercontent.com/71333855/130538382-785787a4-b369-40c7-8da6-e62278d0a332.png)
+(image)
 
-In viewing the matrix, we see 30 representing the fn and the 270 representing the tp from our model, we can deduct that this means that 30 out of 270 skin lesions, or 1 in 9, are misdiagnosed as benign when infact are cancerous. Unfortunately these numbers are not ideal, especially when it comes to the health of patients.
+In viewing the matrix, we see 206 representing the fn and the 1594 representing the tp from our model, we can deduct that this means that 206 out of 1800 skin lesions, or 1 in 9, are misdiagnosed as benign when infact are cancerous. Ideally these numbers would be 0 out of 1800, especially since its in relation to the health of patients.
 
 # Conclusion
 This project has shown how to benign and malignant diagnosis' from a set of skin lesion images and although it's far from perfect and could be improved, it is amazing to see the success of deep learning being used in real world problems.
