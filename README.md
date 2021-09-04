@@ -18,14 +18,14 @@
 │   
 └──[reports](reports): Folder contains final notebook and presentation
     ├── notebook.ipynb
-    └── presentation
+    └── skinlesionclassification (1).pdf
 
 ```
 
 **To navigate this repository:**
 
 1. [Final Notebook](/reports/notebook.ipynb)
-2. [Presentation Slides](reports/skinlesionclassification (1).pdf)
+2. [Presentation Slides](/reports/skinlesionclassification (1).pdf)
 
 
 
