@@ -25,7 +25,7 @@
 **To navigate this repository:**
 
 1. [Final Notebook](/reports/notebook.ipynb)
-2. [Presentation Slides](reports/presentation.pdf)
+2. [Presentation Slides](reports/skinlesionclassification (1).pdf)
 
 
 
