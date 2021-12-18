@@ -70,7 +70,7 @@ A Convolutional Neural Network (CNN/ConvNet) is a Deep Learning algorithm which 
 
 ### Obtaining the data:
 
-The data was gathered from a number of sources including [dermascopy.org](https://sites.google.com/site/robustmelanomascreening/dataset), cancer.com, skincancer.org, cdc.gov, kaggle.com and more. I've compiled the dataset using a number of techniques including web scraping, and will upload the full dataset (contains approximately 28,000 images) to be available for download.
+The data was gathered from a number of sources including [dermascopy.org](https://sites.google.com/site/robustmelanomascreening/dataset), cancer.com, skincancer.org, cdc.gov, kaggle.com and more. I've compiled the dataset using a number of techniques including web scraping and manually downloading, and will upload the full dataset (contains approximately 28,000 images) to be available for download.
 
 ### Exploring the Data:
 I loaded the data and explored the number of images per set and displayed a few to make sure that all of the files are readable.
