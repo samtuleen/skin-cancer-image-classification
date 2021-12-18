@@ -14,7 +14,7 @@
 │       └── [models](exploratory/models): Contains notebooks of testing models
 │            
 │      
-├── [weights](weights):  Folder contains the saved best weights of the 4 models
+├── [weights](weights):  Folder contains the best weights of the 4 models
 │   
 └──[reports](reports): Folder contains final notebook and presentation
     ├── notebook.ipynb
