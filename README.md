@@ -31,7 +31,7 @@
 
 ## Summary 
 
-The goal of this project is to build an algorithm to correctly identify if whether or not a skin lesion is cancerous. The model will take in a picture of said lesion and calculate the probability that said lesion is benign (non-cancerous) or malignant (cancer). 
+The goal of this project is to build a model to correctly identify if whether or not a skin lesion is cancerous. The algorithm will take in a picture of said lesion and calculate the probability that said lesion is benign (non-cancerous) or malignant (cancer). 
 
 The Neural Network chosen was the Convolutional Neural Network (CNN) as it is one of the preferred for image processing. In this project I use a standard CNN model without data augmentation, two 5-convolutional block models, an EfficientNet-B0 and a ResNet50 model.
 
