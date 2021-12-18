@@ -33,7 +33,7 @@
 
 The goal of this project is to build a model to correctly identify if whether or not a skin lesion is cancerous. The algorithm will take in a picture of said lesion and calculate the probability that said lesion is benign (non-cancerous) or malignant (cancer). 
 
-The Neural Network chosen was the Convolutional Neural Network (CNN) as it is one of the preferred for image processing. In this project I use a standard CNN model without data augmentation, two 5-convolutional block models, an EfficientNet-B0 and a ResNet50 model.
+The Neural Network I've chosen was the Convolutional Neural Network (CNN) as it is one of the preferred for image processing. In this project I use a standard CNN model without data augmentation, two 5-convolutional block models, an EfficientNet-B0 and a ResNet50 model.
 
 I've chosen this specific project because I've recently lost my grandfather on Memorial Day 2021 due to heart failure. He was a Purple Heart veteran of the Vietnam war, who unfortunately suffered the effects of Agent Orange (a defoliant and herbicide/chemical sprayed by the US in the Vietnam war). At the change of every season he would suffer severely from the long lasting effects that would cause his skin to peel off, as well as causing various lesions to form. He would be in so much agony that he'd ban any of his family from seeing him until the episode would pass. This went on till his untimely passing 3 months ago at the age of 76. 
 
